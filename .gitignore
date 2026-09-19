@@ -1,0 +1,26 @@
+# macOS and editor files
+.DS_Store
+.zed/
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and test outputs
+build/
+dist/
+*.o
+*.a
+*.so
+compile_commands.json
+
+# Large or local-only course downloads
+courses/**/materials/downloads/
+courses/**/materials/local/
+*.mp4
+*.mkv
+*.zip
+*.tar
+*.tar.gz
