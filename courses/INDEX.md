@@ -17,11 +17,11 @@ courses/<course>/
 
 | 课程 | 当前资料版本 | 官方入口 | 本地目录 |
 |---|---|---|---|
+| Stanford CS336 | Spring 2026；保留官方 assignments 作为自学资料 | [课程主页](https://cs336.stanford.edu/) | [cs336](cs336/) |
 | CSAPP / CMU 15-213 | CS:APP 3e；CMU 15-213 Fall 2026 | [CS:APP](https://csapp.cs.cmu.edu/) · [15-213](https://www.cs.cmu.edu/~213/) | [csapp](csapp/) |
 | MIT 6.S081 / 6.1810 | MIT Fall 2026 | [课程主页](https://pdos.csail.mit.edu/6.S081/2026/) · [Schedule](https://pdos.csail.mit.edu/6.S081/2026/schedule.html) | [6s081](6s081/) |
 | Stanford CS144 | 当前公开课程页面 | [课程主页](https://cs144.stanford.edu/) | [cs144](cs144/) |
 | CMU 15-445 | Fall 2026 | [课程主页](https://15445.courses.cs.cmu.edu/fall2026/) · [Assignments](https://15445.courses.cs.cmu.edu/fall2026/assignments.html) | [15-445](15-445/) |
-| Stanford CS336 | Spring 2026；保留官方 assignments 作为自学资料 | [课程主页](https://cs336.stanford.edu/) | [cs336](cs336/) |
 
 ## 收集规则
 

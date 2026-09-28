@@ -1,0 +1,6 @@
+[submodule "courses/cs336/labs/assignment1-basics"]
+	path = courses/cs336/labs/assignment1-basics
+	url = https://github.com/stanford-cs336/assignment1-basics.git
+[submodule "courses/cs336/materials/lectures"]
+	path = courses/cs336/materials/lectures
+	url = https://github.com/stanford-cs336/lectures.git

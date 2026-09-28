@@ -1,15 +1,15 @@
 # Deep Learning
 
-这里的 `Deep Learning` 指“深度的学习”，是一个以计算机系统为主线的长期学习项目，不是单独的深度学习课程仓库。
+这里的 `Deep Learning` 指“深度的学习”，是一个从大语言模型实现切入、逐步补齐计算机系统基础的长期学习项目。
 
 ## 从哪里开始
 
 1. 查看全年路线：[学习计划.md](学习计划.md)
-2. 查看当前月份：[plan/01-CSAPP基础.md](plan/01-CSAPP基础.md)
+2. 查看当前月份：[plan/01-CS336基础.md](plan/01-CS336基础.md)
 3. 查看课程资料索引：[courses/INDEX.md](courses/INDEX.md)
 4. 阅读项目协作规则：[AGENTS.md](AGENTS.md)
 
-正式开始日：2026 年 10 月 1 日。第一阶段从 CSAPP 开始。
+正式开始日：2026 年 10 月 1 日。学习顺序：CS336 → CSAPP → 6.S081 → CS144 → 15-445。
 
 ## 目录约定
 
