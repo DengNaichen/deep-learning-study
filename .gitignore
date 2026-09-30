@@ -24,3 +24,6 @@ courses/**/materials/local/
 *.zip
 *.tar
 *.tar.gz
+
+# Lab datasets (several GB; download per the lab README)
+courses/**/labs/*/data/

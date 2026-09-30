@@ -34,7 +34,7 @@
 
 ## 本地 Assignment 1
 
-- 位置：[labs/assignment1-basics](labs/assignment1-basics/)，作为 Git submodule 保留官方历史；父仓库通过 `.gitmodules` 记录来源，通过 gitlink 记录具体 commit。
+- 位置：[labs/assignment1-basics](labs/assignment1-basics/)，官方 starter code 的副本，作为普通文件存放在本仓库。2026-09-30 由 Git submodule 转换而来，转换时 51 个官方文件与下方 commit 逐字节一致。
 - 作业说明：[cs336_assignment1_basics.pdf](labs/assignment1-basics/cs336_assignment1_basics.pdf)
 - 环境和数据说明：[README.md](labs/assignment1-basics/README.md)
 - 获取日期：2026-09-28
@@ -42,11 +42,16 @@
 - 获取时 commit：`a158843b20107949f1a8d7df1b05cd33b9166712`
 - 来源：https://github.com/stanford-cs336/assignment1-basics
 
-本次仅克隆资源，未安装依赖或下载训练数据。
+自己的实现、notebook 和实验直接提交在本仓库，不推送到官方仓库。训练数据不入库：按官方 README 下载到 `labs/assignment1-basics/data/`，该目录已在根目录 `.gitignore` 中忽略。
 
-重新克隆本学习目录时，使用 `git clone --recurse-submodules <学习目录仓库地址>`；已有克隆可在根目录运行 `git submodule update --init --recursive` 获取记录的作业版本。
+查看官方在获取之后是否有更新（只读取，不修改本仓库文件）：
 
-作业改动先在子模块内提交，再在父仓库提交更新后的子模块指针。若要跨机器恢复自己的实现，需把子模块提交推送到自己的远程仓库，并将 `.gitmodules` 的 URL 更新为该仓库地址；仅推送父仓库不会上传子模块的提交。
+```sh
+git fetch https://github.com/stanford-cs336/assignment1-basics.git main
+git diff --stat a158843 FETCH_HEAD
+```
+
+官方讲义仍是 Git submodule。重新克隆本学习目录时使用 `git clone --recurse-submodules <学习目录仓库地址>`；已有克隆可在根目录运行 `git submodule update --init --recursive` 获取讲义。
 
 ## VS Code 学习环境
 
