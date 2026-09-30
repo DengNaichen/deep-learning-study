@@ -56,7 +56,7 @@ CS336 Assignment 1，§2.4–2.5 BPE 训练。
 
 ## 未完成的状态
 
-- **Git**：父仓库比 `origin/main` 领先 3 个提交，还没推送。另有未提交的改动：`debt.md`、`courses/cs336/anki/drafts/2026-09-30-pretokenization.md`，以及本文件。
+- **Git**：父仓库的改动已全部提交，并已推送到 `origin/main`。
 - **子模块**：`test.ipynb` 是 A1 子模块里未跟踪的文件，还没有保存方案。直接在子模块里提交的话，因为子模块指向官方仓库，提交推送不上去；需要先把子模块的远程改成学习者自己的仓库（见 `courses/cs336/README.md`）。
 - **Anki**：CS336 牌组共 20 张卡，未同步 AnkiWeb。其中两张是 `status::verify`，等学习者亲手运行确认后改为 `verified`：
   - `1790756579385`：`bytes(0)` 与 `bytes([0])` 的区别；
