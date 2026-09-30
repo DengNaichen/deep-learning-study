@@ -1,0 +1,16 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/courses/cs336/labs/assignment1-basics/.venv",
+  "python.terminal.activateEnvironment": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.cwd": "${workspaceFolder}/courses/cs336/labs/assignment1-basics",
+  "python.testing.pytestArgs": ["tests"],
+  "editor.inlineSuggest.enabled": false,
+  "infcode.autocomplete.enableAutoTrigger": false,
+  "github.copilot.enable": {
+    "*": false,
+    "python": false,
+    "markdown": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false
+}

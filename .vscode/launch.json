@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CS336: Debug current Python file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "python": "${workspaceFolder}/courses/cs336/labs/assignment1-basics/.venv/bin/python",
+      "cwd": "${workspaceFolder}/courses/cs336/labs/assignment1-basics",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

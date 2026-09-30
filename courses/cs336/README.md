@@ -48,7 +48,23 @@
 
 作业改动先在子模块内提交，再在父仓库提交更新后的子模块指针。若要跨机器恢复自己的实现，需把子模块提交推送到自己的远程仓库，并将 `.gitmodules` 的 URL 更新为该仓库地址；仅推送父仓库不会上传子模块的提交。
 
-## 目录
+## VS Code 学习环境
+
+从 VS Code 打开本学习目录根目录，使 `.vscode/` 配置生效。当前默认解释器是 A1 的 `.venv`；已配置 pytest 测试发现和当前 Python 文件的调试入口。项目关闭内联生成建议、Copilot 和 InfCode 自动补全，保留普通 IntelliSense。
+
+本机已安装 Python、Pylance、Python Debugger 和 Jupyter 扩展。Notebook 可在 Python Environments 中选择 `cs336-basics (3.12.13)`（路径为 A1 的 `.venv/bin/python`），或选择已注册的 `CS336 A1 (Python 3.12)` 内核；二者使用同一个环境。已有的 `test.ipynb` 已选择该 Python 环境。
+
+在根目录重建本机环境的命令：
+
+```sh
+uv sync --frozen --project courses/cs336/labs/assignment1-basics
+uv pip install --python courses/cs336/labs/assignment1-basics/.venv/bin/python ipykernel matplotlib
+courses/cs336/labs/assignment1-basics/.venv/bin/python -m ipykernel install --user --name deep-learning-study-cs336-a1 --display-name "CS336 A1 (Python 3.12)"
+```
+
+`ipykernel` 和 `matplotlib` 是本地学习工具，没有改动作业的依赖声明或锁文件。以后执行精确的 `uv sync` 可能移除这两个额外依赖；可重新运行上面的安装命令，或使用 `uv sync --frozen --inexact` 保留额外依赖。
+
+## 目录结构
 
 ```text
 materials/    handout、lecture material 和版本记录
