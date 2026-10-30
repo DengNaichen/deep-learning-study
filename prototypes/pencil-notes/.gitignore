@@ -1,0 +1,4 @@
+# Generated locally with XcodeGen
+*.xcodeproj/
+DerivedData/
+*.xcresult/
